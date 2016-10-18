@@ -10,6 +10,7 @@ import { Routes } from './routes'
 import { MainComponent } from './main/main.component'
 import { LoginComponent } from './login/login.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { ProjectComponent } from './projects/project.component';
 
 import { db } from './services/db.service';
 
@@ -24,7 +25,8 @@ import { db } from './services/db.service';
     AppComponent, 
     MainComponent,
     LoginComponent,
-    ProjectsComponent 
+    ProjectsComponent,
+    ProjectComponent  
     ],
     providers: [ db ],
   bootstrap: [ AppComponent ]

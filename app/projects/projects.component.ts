@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 
 import { db } from '../services/db.service';
+import { ProjectComponent } from './project.component';
 
 @Component({
     moduleId: module.id,
